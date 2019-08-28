@@ -1,0 +1,47 @@
+.parking{
+  background:rgba(249,249,249,1);
+  height: 100vh;
+}
+.img{
+  width:126rpx;
+  margin:0 auto;
+  height:122rpx;
+  padding: 149rpx 0 20rpx 0;
+}
+.logo{
+  width:100%;
+  height:100%;
+}
+.name{
+  margin:0 auto;
+  text-align: center;
+}
+.feature{
+  padding-top:97rpx;
+}
+.txt-name{
+  font-family:PingFangSC;
+  font-weight:600;
+  color:rgba(51,51,51,1);
+  font-size:36rpx;
+}
+.parkinglot{
+  height:104rpx;
+  background:rgba(255,255,255,1);
+  line-height: 104rpx;
+  border-bottom: 1rpx solid #F9F9F9;
+  padding-left:74rpx;
+}
+.logout{
+  height:104rpx;
+  background:rgba(255,255,255,1);
+  line-height: 104rpx;
+  padding-left:74rpx;
+}
+.version{
+  font-size:28rpx;
+  font-family:PingFangSC;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  text-align: center;
+}

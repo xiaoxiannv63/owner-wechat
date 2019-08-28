@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/order/order",
+    "pages/cash/cash",
+    "pages/parking/parking",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "业主平台",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/order/order",
+        "text": "交易订单",
+        "iconPath": "/static/icon_order.png",
+        "selectedIconPath": "/static/icon_clickOrder.png"
+      },
+      {
+        "pagePath": "pages/cash/cash",
+        "text": "提现明细",
+        "iconPath": "/static/icon_cash.png",
+        "selectedIconPath": "/static/icon_clickCash.png"
+      },
+      {
+        "pagePath": "pages/parking/parking",
+        "text": "我的车场",
+        "iconPath": "/static/icon_parking.png",
+        "selectedIconPath": "/static/icon_clickParking.png"
+      }
+    ]
+  }
+}

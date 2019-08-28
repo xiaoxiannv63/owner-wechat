@@ -1,0 +1,11 @@
+<view class="parking">
+  <view class="img">
+    <image class="logo" src="/static/logo-min.jpg"></image>
+  </view>
+  <view class="name"><text class="txt-name">刘珊珊刘珊珊刘珊珊刘珊珊刘珊珊</text></view>
+  <view class="feature">
+    <view class="parkinglot">车场信息</view>
+    <view class="logout">退出登录</view>
+  </view>
+  <view class="version">当前版本号v1.1.1</view>
+</view>

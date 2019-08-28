@@ -1,0 +1,49 @@
+<view class="order">
+  <view class="head-bg">
+    <image class="bg-image" src="/static/bg.png"></image>
+    <view class="head-cont">
+      <view class="head">
+        <view class="head-left">
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">
+              aa{{array[index]}}
+              <image class="down" src="/static/zhcc.png"></image>
+            </view>
+          </picker>
+        </view>
+        <view class="head-right">
+          <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <view class="picker">
+              <image class="big" src="/static/big.png"></image>
+              {{date}}
+            </view>
+          </picker>
+        </view>
+      </view>
+      <view class="num">
+        <view class="num-left">
+          <view class="num-amount">88.00</view>
+          <view class="num-title">今日交易金额(元)</view>
+        </view>
+        <view class="num-right">
+          <view class="num-amount">800</view>
+          <view class="num-title">今日交易笔数(笔)</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="records">
+    <view class="title">交易流水</view>
+    <view class="records-main">
+      <view class="records-title">订单编号：123456789</view>
+      <view class="records-cont">
+        <view class="records-image"></view>
+        <view calss="records-text">
+          <view class="records-plateNo">京A12334</view>
+          <view class="records-time">2019-09-09 12:12:12</view>
+        </view>
+        <view class="records-amount">+12元</view>
+      </view>
+    </view>
+  </view>
+</view>

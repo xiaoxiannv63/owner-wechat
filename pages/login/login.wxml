@@ -1,0 +1,19 @@
+<view class="login">
+  <view class="login-logo">
+    <image class="logo" src="/static/logo-min.jpg"></image>
+  </view>
+  <view class="login-content">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="username">
+        <input class="input" name="username" type="text" placeholder='请输入账号' auto-focus confirm-type="done"/>
+      </view>
+      <view class="password">
+        <input class="input" name="password" type="password" placeholder='请输入密码'/>
+      </view>
+      <view class="login-btn">
+        <view class="error">账号密码错误,请重新输入</view>
+        <button size="default" type="primary" form-type="submit">登录</button>
+      </view>
+    </form>
+  </view>
+</view>
